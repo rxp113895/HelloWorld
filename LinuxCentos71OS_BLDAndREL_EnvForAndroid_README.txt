@@ -28,7 +28,6 @@ unzip android-ndk*.zip into /opt/android-ndk/
 
 unzip android-studio into /opt/android-studio/ and run "source \etc\profile.d\androidstudio.sh"
 
-export LD_LIBRARY_PATH=/opt/glibc-2.14/lib
 # run build script
 cd /root/apps/BuildAndroidAPK and edit repos.txt and run "./build.sh"
 
